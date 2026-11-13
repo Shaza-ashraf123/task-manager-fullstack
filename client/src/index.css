@@ -48,3 +48,70 @@ button:disabled {
     padding: 8px;
     border-radius: 6px;
 }
+
+.card.wide {
+    max-width: 600px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+button.secondary {
+    background: #6b7280;
+}
+
+button.danger {
+    background: #dc2626;
+}
+
+.tasks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tasks li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tasks li.done .info strong {
+    text-decoration: line-through;
+    color: #9ca3af;
+}
+
+.tasks .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks .info small {
+    color: #6b7280;
+}
+
+.tasks .edit {
+    flex: 1;
+    display: flex;
+    gap: 6px;
+}
+
+.tasks .edit input {
+    flex: 1;
+}
+
+.tasks button {
+    padding: 6px 10px;
+    font-size: 14px;
+}
